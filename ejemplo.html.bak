@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<script>
+			function pon(msg) {
+				document.getElementById(' evento' ). textContent = msg;
+			}
+		</script>
+	</head>
+	<body onload="pon(' onload')"
+		onresize="pon('resize')" >
+	<p>Evento: <span id="evento">nada</span></p>
+	</body>
+</html>
